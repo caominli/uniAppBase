@@ -1,0 +1,58 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "unipp快速模板"
+				// "navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/user/login/index",
+			"style": {
+				"navigationBarTitleText": "登录"
+			}
+		},
+		{
+			"path": "pages/user/register/index",
+			"style": {
+				"navigationBarTitleText": "注册用户"
+			}
+		},
+		{
+			"path": "pages/user/repassword/index",
+			"style": {
+				"navigationBarTitleText": "重置密码"
+			}
+		}
+	],
+	// "subPackages": [
+	// 	{
+	// 		"root": "pages_user",
+	// 		"pages": [
+	// 			{
+	// 				"path": "user/login",
+	// 				"style": {
+	// 				"navigationBarTitleText": "登录"
+	// 			}
+	// 		],
+	// 	}
+	// ],
+	// "preloadRule": {
+	// 	"pages_user/user/login": {
+	// 		"network": "all",
+	// 		"packages": ["__APP__"]
+	// 	}
+	// }
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "大木编程",
+		// "navigationStyle": "custom",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {},
+	"resolveAlias": {
+	    "@/*": "/*"
+	  }
+}
